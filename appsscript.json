@@ -1,0 +1,17 @@
+{
+  "timeZone": "America/Mexico_City",
+  "dependencies": {
+    "libraries": [{
+      "userSymbol": "cGoa",
+      "libraryId": "1v_l4xN3ICa0lAW315NQEzAHPSoNiFdWHsMEwj2qA5t9cgZ5VWci2Qxv2",
+      "version": "30",
+      "developmentMode": true
+    }]
+  },
+  "webapp": {
+    "access": "ANYONE",
+    "executeAs": "USER_ACCESSING"
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "oauthScopes": ["https://www.googleapis.com/auth/fitness.activity.read", "https://www.googleapis.com/auth/script.external_request","https://www.googleapis.com/auth/spreadsheets"]
+}
